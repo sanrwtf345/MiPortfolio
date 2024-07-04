@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css"> 
+    <script src="https://kit.fontawesome.com/1d6a2d0866.js" crossorigin="anonymous"></script>
+    <title>Mi portfolio</title>
+</head>
+<body>
+    <header> 
+        <h1 class="titulo">SANTIAGO ROMERO</h1>
+            <nav>
+                <ol>
+                    <div class="links">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#sobreMi" class="link">About me</a>
+                    </div>
+                    <div class="links">
+                        <i class="fa-solid fa-trophy"></i>
+                        <a href="#misTitulos" class="link">My skills</a>
+                    </div>
+                    <div class="links">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <a href="#misProyectos" class="link">My projects</a>
+                    </div>
+                    <div class="links">
+                        <i class="fa-solid fa-photo-film"></i>
+                        <a href="#galeria" class="link">Galery</a>
+                    </div>
+                    <div  class="links">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#contacto" class="link">Contacts</a>
+                    </div>
+                </ol>
+            </nav>
+    </header>
+    <div class="imagenPort">
+        <img src="Perfil.png" alt="Foto portada" id="fotoPortada"/></img>
+    </div>
+    <section class="contenedor">
+        <div class="titulosP">
+        <h2>ABOUT ME</h2> <a name="sobreMi"></a>            
+                <p>Hello there!!! my name is Santiago Romero, i'm 23 years old and i'm a first year student of TSDS. This section of my portfolio exist so that you can know me better, including my aspirations and ambitions surrounding my carrer. I've always been a very curious person, and even more so with things related to technology in general, so as I got older I started working with computers in all sorts of ways, including maintenance, troubleshooting and building from scratch, even now I still do this sort of thing whenever there's an opportunity. It's this interest in the world of IT that led me to study TSDS, i want to take my knowledge to a professional level and at the same time make a living out of it. My biggest ambition for my career is to become a Senior Back End Developer with lots of experience, mainly so that I can take on big projects that would test my abilities and coding skills. To conclude this small description of myself, I'd like to say that I'm an extremely responsible person who is always looking for new challenges and learning new things. </p>            
+        </div>
+        <div class="titulosP">
+        <h2>MY SKILLS</h2> <a name="misTitulos"></a>
+            <ul>
+                <li>PC architecture knowledge</li>
+                <li>Knowledge of different operating systems.</li>
+                <li>Software knowledge</li>
+                <li>HTML and CSS</li>
+            </ul>
+        </div>
+        <div id="myProjects">
+            <h2>MY PROJECTS</h2> <a name="misProyectos"></a>
+                <p>This is a list of the projects i've been involved in:</p>
+                <div class="row align-items-start">
+                    <div class="col">
+                        <h4>Building computers for personal use</h4>
+                        <p>From gaming to everyday use to office computing, this includes choosing the right specifications for each use case.</p>
+                        <img src="1.png" alt="armado" id="armado">
+                    </div>
+                    <div class="col">
+                      <h4>Personal computer maintenance (including troubleshooting)</h4>
+                      <p>This includes all types of problems (software and hardware) that can interfere with the normal use of a PC.</p>
+                      <img src="2.png" alt="mantenimiento" id="mant">
+                    </div>
+                    <div class="col">
+                      <h4>Maintenance of LAN servers for data storage and LAN networks</h4>
+                      <p>Including all types of connection issues (credentials, logins, passwords, etc.), hardware-related issues and storage solutions.</p>
+                        <img src="3.png" alt="LAN" id="LAN">
+                    </div>
+                    <div class="col">
+                        <h4>Web application maintenance via hosting</h4>
+                        <p>It refers to all the work that goes into keeping the application online and running, as well as backing up all the information in case there is a problem with the main server.</p>
+                        <img src="4.png" alt="webapp" id="webapp">
+                    </div>
+                </div>
+        </div>
+        <div class="titulosP">
+            <h2>GALERY</h2> <a name="galeria"></a>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagen.1.jpg" class="d-block w-100" alt="imagen1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen.2.jpg" class="d-block w-100" alt="imagen2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen.3.jpg" class="d-block w-100" alt="imagen3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen.4.jpg" class="d-block w-100" alt="imagen3">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <h4>CONTACT</h4> <a name="contacto"></a>
+
+                <img src="Instagram_logo.png" alt="Instagram logo" class="imgInsta"/></img>
+                    <a href="https://www.instagram.com/santi_romerox/" class="link">Instagram</a>
+                <img src="Gmail_logo.png" alt="Gmail logo" class="imgGmail"/></img>
+                    <a href="https://www.google.com/intl/es-419/gmail/about/" class="link">Gmail - sanromcast@gmailcom</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
